@@ -176,7 +176,24 @@ Preloader
     color: #fff;
     opacity: 0;
 }
-
+.name{
+    margin: 0;
+    color: #fff !important;
+    width: 100%;
+}
+.news{
+    height: 450px!important;
+}
+.awards{
+    height: 180px;
+}
+.m-t-45{
+    margin-top: 45px;
+}
+.p-full{
+    width: 100%;
+    margin:15px 0 0 0;
+}
 @-webkit-keyframes spin {
     0% {
         letter-spacing: 0.8px;
@@ -461,7 +478,7 @@ header div {
 
 header div span {
     font-family: 'AktivGroteskXbold';
-    font-size: 38vh;
+    font-size: 30vh;
     letter-spacing: -6.5px;
     transition: 1.2s cubic-bezier(.19, 1, .22, 1);
 }
@@ -475,6 +492,7 @@ header div span {
     transition-delay: 0.1s;
     letter-spacing: 2px;
     opacity: 0;
+    margin-top: 10px;
 }
 .Yo-appearing  {
     opacity: 1;
@@ -1236,7 +1254,7 @@ Projects pages content
 -------------------------------- */
 
 .cd-project section{
-    margin: 160px auto;
+    margin: 120px auto;
     opacity: 1;
     color: #000;
 }
@@ -1321,20 +1339,33 @@ Projects pages content
     margin: 0;
     height: inherit
 }
+.cd-project .p-right{
+    float: right;
+}
 .cd-project .img-table section{
     display: flex; 
     justify-content: space-between;
     text-align: left;
     margin: 0px auto;
 }
+.strong{
+    font-weight:bolder;
+}
 .cd-project .img-table section div:nth-of-type(2) img:first-of-type{
     margin-bottom: 80px;
 }
+
 .cd-project .img-table section div{
-    margin:160px 0px;
+    margin-top:80px ;
 }
 .cd-project div img{
     width: 100%
+}
+.m-b-0{
+    margin-bottom: 0 !important;
+}
+.m-t-0{
+    margin-top: 0px !important;
 }
 .cd-project .img-animated{
     height: 60vh;
@@ -1347,7 +1378,7 @@ Projects pages content
 display: flex;
 }
 .cd-project .img-table-2{
-    margin: 160px auto;
+    margin: 120px auto;
 }
 .cd-project .img-table-3 .img-table-3-wrap{
     display: flex;
