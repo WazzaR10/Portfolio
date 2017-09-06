@@ -188,11 +188,53 @@ Preloader
     height: 180px;
 }
 .m-t-45{
-    margin-top: 45px;
+    margin-top: 45px !important;
 }
 .p-full{
     width: 100%;
     margin:15px 0 0 0;
+}
+.social{
+    background-color:#fff;
+    border-radius: 50%;
+    color: #000;
+    margin-right:5px ;
+}
+.inline{
+    display: inline;
+}
+.col-4{
+    display: inline-block!important;
+    position: relative !important;
+   background:transparent !important;
+    transform:none !important;
+    transition: none !important;
+    width: 25% !important;
+    float: left;
+    margin: 30px 0 0 0  !important;
+    border-top: none !important;
+}
+.social:hover{
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
+}
+.w-100{
+    width: 100% !important;
+    text-align: center;
+}
+
+.fa-facebook{
+    padding:5px 8px ;
+}
+.fa-linkedin{
+    padding: 5px 6px;
+}
+.fa-instagram{
+    padding: 5px 6px;
+}
+.fa-google-plus{
+    padding:5px 3px ;
 }
 @-webkit-keyframes spin {
     0% {
@@ -1349,7 +1391,7 @@ Projects pages content
     margin: 0px auto;
 }
 .strong{
-    font-weight:bolder;
+    font-weight:bolder !important;
 }
 .cd-project .img-table section div:nth-of-type(2) img:first-of-type{
     margin-bottom: 80px;
@@ -1366,6 +1408,12 @@ Projects pages content
 }
 .m-t-0{
     margin-top: 0px !important;
+}
+.col-4 a{
+    color:#aaa;
+}
+.col-4 a:hover{
+    color:#333;
 }
 .cd-project .img-animated{
     height: 60vh;
@@ -1596,5 +1644,23 @@ Transition projet
 
 
 
-
-
+.footer{
+    padding: 45px 0;
+    text-align: center;
+    width: 100%;
+    background-color:#000;
+    color: #fff;
+    border-top: 1px solid #eee;
+}
+.hvr-bounce-to-bottom h3{
+    color:#fff;
+}
+.hvr-bounce-to-bottom h3:hover{
+    color:#000;
+}
+.m-t-15{
+    margin-top: 15px !important;
+}
+.m-t-135{
+    margin-top: 135px !important;
+}
